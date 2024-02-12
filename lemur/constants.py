@@ -37,7 +37,7 @@ CERTIFICATE_KEY_TYPES = [
     "ECCSECT233R1",
     "ECCSECT283R1",
     "ECCSECT409R1",
-    "ECCSECT571R2",
+    "ECCSECT571R1",
 ]
 
 # For commonly reused regexes used by plugins
