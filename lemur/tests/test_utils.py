@@ -44,7 +44,7 @@ def test_generate_private_key():
     assert generate_private_key("ECCSECT233R1")
     assert generate_private_key("ECCSECT283R1")
     assert generate_private_key("ECCSECT409R1")
-    assert generate_private_key("ECCSECT571R2")
+    assert generate_private_key("ECCSECT571R1")
 
     with pytest.raises(Exception):
         generate_private_key("LEMUR")
